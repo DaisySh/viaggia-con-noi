@@ -5,6 +5,15 @@
   background-position: center;
 }
 
+@media screen and (max-width: 800px), (orientation: portrait) {
+  .hero-div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                      url("../imgs/small/la_graziosa.jpg");
+  }
+
+}
+
+
 .icone {
   width: 3rem;
 }

@@ -1,0 +1,93 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/404.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  font-family: "wonder", serif;
+  color: white;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: white;
+  outline: none;
+}
+
+.nav {
+  font-family: "wonder", serif;
+  font-size: 1.5rem;
+}
+
+.nav-link:link {
+  color: white;
+}
+
+.nav-link:visited {
+  color: grey;
+}
+
+.nav-link:focus {
+  color: white;
+  outline: 1px solid white;
+}
+
+.nav-link:active {
+  color: white;
+  background-color: black;
+  outline: none;
+}
+
+.lead, .base-text {
+  font-family: "champagne", sans-serif;
+}
+
+h2 {
+  font-family: "wonder", serif;
+  font-size: 4rem;
+}
+
+.form-control {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.form-control::placeholder{
+  color: white;
+  opacity: 0.7;
+}
+
+.btn-light {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-family: "champagne", sans-serif;
+}
+
+.btn-light:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+
+@media screen and (max-width: 800px), (orientation: portrait) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                      url("../imgs/small/404.jpg");
+  }
+
+}
